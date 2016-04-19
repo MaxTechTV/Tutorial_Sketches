@@ -1,6 +1,11 @@
-// Author: MaxTechTV
-// Sketch zu Arduino Tutorial 3 - Einfacher Input
-// https://www.youtube.com/watch?v=eaFvQG8wrGw
+/* Sketch for Tutorial 3
+
+Author: Maximilian Hentsch
+
+Sketch zu Arduino Tutorial 3 - Einfacher Input
+https://www.youtube.com/watch?v=eaFvQG8wrGw
+
+*/
 
 void setup() {
   Serial.begin(9600);

@@ -1,11 +1,8 @@
 /* Blink without Delay II 
-
 Author: Maximilian Hentsch
-
 Turns two LEDs on and off in set intervals without the use of the delay() function. 
 This shows a method how to code non blocking code, that can handle multiple timed events 
 independently of each other. 
-
  */
 
 

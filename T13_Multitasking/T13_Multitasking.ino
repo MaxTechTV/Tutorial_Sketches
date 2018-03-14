@@ -1,3 +1,9 @@
+/* Sketch for Tutorial 13
+Author: Maximilian Hentsch
+Sketch zu Arduino Tutorial 13 - Multitasking
+https://www.youtube.com/watch?v=YP9xQWqFOKg
+*/
+
 int led1 = 13;
 int led2 = 12;
 int button = 11;
@@ -15,7 +21,7 @@ void setup() {
 
 void loop() {
 
-  if ((millis() - lastMillis1) >= 1000) {
+  if ((millis() - lastMillis1) >= 500) {
     digitalWrite(led1, !digitalRead(led1));
     lastMillis1 = millis();
   }
